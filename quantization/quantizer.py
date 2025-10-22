@@ -4,7 +4,7 @@ class SymQuantizer(torch.autograd.Function):
     """
     uniform quantization
     """
-
+#add this is as static method
     @staticmethod
     def forward(ctx, input, clip_val, num_bits, layerwise):
         """
